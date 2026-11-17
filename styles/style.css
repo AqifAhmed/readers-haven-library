@@ -1,0 +1,14 @@
+/* Shared base styles. Each page contributor adds their own section and at least one @media query. */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  line-height: 1.5;
+}
+
+header, main, footer {
+  padding: 1rem 2rem;
+}
+
+nav a {
+  margin-right: 1rem;
+}
