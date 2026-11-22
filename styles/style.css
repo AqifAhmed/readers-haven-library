@@ -492,3 +492,64 @@ nav a {
   font-size: 0.9rem;
 }
 
+/* Home page responsive layout */
+@media (max-width: 900px) {
+  .home-header {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1rem;
+    padding: 1.4rem;
+  }
+
+  .home-hero {
+    padding: 3rem 2rem;
+  }
+
+  .home-hero h2 {
+    font-size: 2.4rem;
+  }
+
+  .home-mission-list,
+  .home-info-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .home-link-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 560px) {
+  .home-main {
+    padding: 1.5rem 1rem 3rem;
+  }
+
+  .home-hero {
+    padding: 2.2rem 1.4rem;
+    border-radius: 12px;
+  }
+
+  .home-hero h2 {
+    font-size: 1.9rem;
+  }
+
+  .home-hero::after {
+    display: none;
+  }
+
+  .home-mission-list,
+  .home-info-grid,
+  .home-link-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .home-card {
+    padding: 1.4rem;
+  }
+
+  .home-hours th,
+  .home-hours td {
+    font-size: 0.85rem;
+  }
+}
+
