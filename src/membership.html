@@ -3,28 +3,119 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Membership | Readers’ Haven Public Library</title>
+  <meta name="description" content="Membership plans, borrowing limits and joining steps at Readers' Haven Public Library.">
+  <title>Membership | Readers&rsquo; Haven Public Library</title>
   <link rel="stylesheet" href="../styles/style.css">
 </head>
-<body>
-  <header>
-    <h1>Readers’ Haven</h1>
-    <nav>
+<body class="membership-body">
+  <header class="membership-header">
+    <div class="membership-brand">
+      <span class="membership-brand-mark" aria-hidden="true">&#128218;</span>
+      <div>
+        <h1>Readers&rsquo; Haven</h1>
+        <p class="membership-tagline">Membership &middot; Read more, pay less</p>
+      </div>
+    </div>
+    <nav class="membership-nav" aria-label="Main navigation">
       <a href="index.html">Home</a>
       <a href="collections.html">Collections</a>
-      <a href="membership.html">Membership</a>
+      <a href="membership.html" aria-current="page">Membership</a>
       <a href="services.html">Services</a>
       <a href="contact.html">Contact</a>
     </nav>
   </header>
 
-  <main>
-    <h2>Membership Plans</h2>
-    <p>Placeholder: at least three plans with fee in PKR, borrowing limit, loan period, late-return rules.</p>
+  <main class="membership-main">
+    <section class="membership-hero" aria-labelledby="membership-hero-title">
+      <p class="membership-eyebrow">Join Readers&rsquo; Haven</p>
+      <h2 id="membership-hero-title">A library card opens every door.</h2>
+      <p>
+        Members can borrow books, use the study rooms and join every free
+        programme we run. Choose the plan that suits you; all plans include
+        access to the full collection and Wi-Fi.
+      </p>
+    </section>
+
+    <section class="membership-plans" aria-labelledby="membership-plans-title">
+      <h2 id="membership-plans-title">Choose a plan</h2>
+      <p class="membership-lead">Annual fees are listed in PKR. Concessions are available for students and seniors.</p>
+
+      <div class="membership-grid">
+        <article class="membership-card">
+          <h3>Student</h3>
+          <p class="membership-price">PKR 500 <span>per year</span></p>
+          <p class="membership-card-text">For school, college and university students with a valid student card.</p>
+          <dl class="membership-details">
+            <div><dt>Borrowing limit</dt><dd>3 items</dd></div>
+            <div><dt>Loan period</dt><dd>14 days</dd></div>
+            <div><dt>Late return</dt><dd>PKR 20 per item per day</dd></div>
+          </dl>
+          <a class="membership-button" href="contact.html">Ask about this plan</a>
+        </article>
+
+        <article class="membership-card membership-card-featured">
+          <p class="membership-badge">Most popular</p>
+          <h3>Individual</h3>
+          <p class="membership-price">PKR 1,000 <span>per year</span></p>
+          <p class="membership-card-text">Full membership for one adult, with priority room bookings.</p>
+          <dl class="membership-details">
+            <div><dt>Borrowing limit</dt><dd>5 items</dd></div>
+            <div><dt>Loan period</dt><dd>21 days</dd></div>
+            <div><dt>Late return</dt><dd>PKR 30 per item per day</dd></div>
+          </dl>
+          <a class="membership-button" href="contact.html">Ask about this plan</a>
+        </article>
+
+        <article class="membership-card">
+          <h3>Family</h3>
+          <p class="membership-price">PKR 1,800 <span>per year</span></p>
+          <p class="membership-card-text">Two adults and up to three children at the same address.</p>
+          <dl class="membership-details">
+            <div><dt>Borrowing limit</dt><dd>10 items</dd></div>
+            <div><dt>Loan period</dt><dd>21 days</dd></div>
+            <div><dt>Late return</dt><dd>PKR 30 per item per day</dd></div>
+          </dl>
+          <a class="membership-button" href="contact.html">Ask about this plan</a>
+        </article>
+      </div>
+    </section>
+
+    <section class="membership-rules" aria-labelledby="membership-rules-title">
+      <h2 id="membership-rules-title">Borrowing rules</h2>
+      <ul class="membership-rules-list">
+        <li>Items can be renewed twice if nobody else has reserved them.</li>
+        <li>Late fees are capped at the replacement cost of the item.</li>
+        <li>Lost or damaged items must be replaced or paid for at the current price.</li>
+        <li>Reference books and the local-history archive are in-library use only.</li>
+        <li>Members under 16 need a parent or guardian to countersign the application.</li>
+      </ul>
+    </section>
+
+    <section class="membership-join" aria-labelledby="membership-join-title">
+      <h2 id="membership-join-title">How to join</h2>
+      <ol class="membership-steps">
+        <li>
+          <strong>Bring your ID</strong>
+          <span>A CNIC, student card or passport, plus proof of address.</span>
+        </li>
+        <li>
+          <strong>Fill in the form</strong>
+          <span>Staff will help you complete the one-page application at the desk.</span>
+        </li>
+        <li>
+          <strong>Pay the annual fee</strong>
+          <span>Cash or card at the front desk; you will receive your card the same day.</span>
+        </li>
+        <li>
+          <strong>Start borrowing</strong>
+          <span>Browse the shelves or reserve a title through the contact page.</span>
+        </li>
+      </ol>
+    </section>
   </main>
 
-  <footer>
-    <p>&copy; 2026 Readers’ Haven Public Library</p>
+  <footer class="membership-footer">
+    <p>&copy; 2026 Readers&rsquo; Haven Public Library &middot; Membership enquiries: membership@readershaven.example</p>
   </footer>
 </body>
 </html>
