@@ -3,28 +3,129 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Services | Readers’ Haven Public Library</title>
+  <meta name="description" content="Borrowing, study rooms, digital help, story time, printing and home delivery at Readers' Haven Public Library.">
+  <title>Services | Readers&rsquo; Haven Public Library</title>
   <link rel="stylesheet" href="../styles/style.css">
 </head>
-<body>
-  <header>
-    <h1>Readers’ Haven</h1>
-    <nav>
+<body class="services-body">
+  <header class="services-header">
+    <div class="services-brand">
+      <span class="services-brand-mark" aria-hidden="true">&#128218;</span>
+      <div>
+        <h1>Readers&rsquo; Haven</h1>
+        <p class="services-tagline">Services &middot; More than books</p>
+      </div>
+    </div>
+    <nav class="services-nav" aria-label="Main navigation">
       <a href="index.html">Home</a>
       <a href="collections.html">Collections</a>
       <a href="membership.html">Membership</a>
-      <a href="services.html">Services</a>
+      <a href="services.html" aria-current="page">Services</a>
       <a href="contact.html">Contact</a>
     </nav>
   </header>
 
-  <main>
-    <h2>Digital Services</h2>
-    <p>Placeholder: at least four services with timings or steps.</p>
+  <main class="services-main">
+    <section class="services-hero" aria-labelledby="services-hero-title">
+      <p class="services-eyebrow">What we offer</p>
+      <h2 id="services-hero-title">Space to read, learn and create.</h2>
+      <p>
+        From quiet study corners to friendly digital help, our services are free
+        or low-cost for members. Times below are staffed hours; the building
+        closes at the times shown on the home page.
+      </p>
+    </section>
+
+    <section class="services-list" aria-labelledby="services-list-title">
+      <h2 id="services-list-title">Library services</h2>
+      <div class="services-grid">
+        <article class="services-card">
+          <span class="services-icon" aria-hidden="true">&#128214;</span>
+          <h3>Borrowing &amp; reservations</h3>
+          <p class="services-time">Monday to Saturday &middot; 9:00 &ndash; 18:00</p>
+          <p>Borrow up to your plan limit, renew twice, or reserve a title that is currently on loan.</p>
+          <ol class="services-steps">
+            <li>Search the catalogue or ask a librarian.</li>
+            <li>Reserve online or at the front desk.</li>
+            <li>Collect within 3 days of the email.</li>
+          </ol>
+        </article>
+
+        <article class="services-card">
+          <span class="services-icon" aria-hidden="true">&#128218;</span>
+          <h3>Study rooms</h3>
+          <p class="services-time">Daily &middot; 9:00 &ndash; 18:30</p>
+          <p>Two quiet rooms for individuals or small groups, with power sockets and a whiteboard.</p>
+          <ol class="services-steps">
+            <li>Book a 2-hour slot at the front desk.</li>
+            <li>Bring your library card.</li>
+            <li>Cancel early so someone else can use the room.</li>
+          </ol>
+        </article>
+
+        <article class="services-card">
+          <span class="services-icon" aria-hidden="true">&#128187;</span>
+          <h3>Digital help desk</h3>
+          <p class="services-time">Tuesday &amp; Thursday &middot; 15:00 &ndash; 18:00</p>
+          <p>One-to-one help with email, online forms, e-books and staying safe online.</p>
+          <ol class="services-steps">
+            <li>Book a free 30-minute session.</li>
+            <li>Bring your device and any passwords you need.</li>
+            <li>Staff will not ask for your bank details.</li>
+          </ol>
+        </article>
+
+        <article class="services-card">
+          <span class="services-icon" aria-hidden="true">&#127908;</span>
+          <h3>Children&rsquo;s story time</h3>
+          <p class="services-time">Saturday &middot; 10:30 &ndash; 11:15</p>
+          <p>Songs, stories and a simple craft for children aged 3 to 8 and their grown-ups.</p>
+          <ol class="services-steps">
+            <li>Drop in; no booking needed.</li>
+            <li>Arrive five minutes early for a seat.</li>
+            <li>Ask about our quiet-hour sessions.</li>
+          </ol>
+        </article>
+
+        <article class="services-card">
+          <span class="services-icon" aria-hidden="true">&#128424;</span>
+          <h3>Print, scan &amp; copy</h3>
+          <p class="services-time">Monday to Saturday &middot; all opening hours</p>
+          <p>Self-service printing and scanning with a staffed counter for larger jobs.</p>
+          <ol class="services-steps">
+            <li>Send files to the print queue at the desk.</li>
+            <li>Pay per page: PKR 10 black &amp; white, PKR 30 colour.</li>
+            <li>Collect your pages and clear the queue.</li>
+          </ol>
+        </article>
+
+        <article class="services-card">
+          <span class="services-icon" aria-hidden="true">&#128666;</span>
+          <h3>Home delivery</h3>
+          <p class="services-time">Fortnightly &middot; Friday mornings</p>
+          <p>For members who cannot visit the library because of age, illness or disability.</p>
+          <ol class="services-steps">
+            <li>Ask a relative or carer to call us.</li>
+            <li>Tell us the genres you enjoy.</li>
+            <li>We deliver a selected bag every two weeks.</li>
+          </ol>
+        </article>
+      </div>
+    </section>
+
+    <section class="services-access" aria-labelledby="services-access-title">
+      <h2 id="services-access-title">Access and support</h2>
+      <p>
+        The building has step-free access, an accessible toilet and a hearing loop
+        at the front desk. Large-print and audiobook collections are available.
+        If you need another adjustment, tell us when you book and we will do our best.
+      </p>
+      <a class="services-button" href="contact.html">Ask about a service</a>
+    </section>
   </main>
 
-  <footer>
-    <p>&copy; 2026 Readers’ Haven Public Library</p>
+  <footer class="services-footer">
+    <p>&copy; 2026 Readers&rsquo; Haven Public Library &middot; Front desk: 555-0142</p>
   </footer>
 </body>
 </html>
