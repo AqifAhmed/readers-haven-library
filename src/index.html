@@ -3,14 +3,21 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Home | Readers’ Haven Public Library</title>
+  <meta name="description" content="Readers' Haven Public Library - a welcoming community library for books, learning and connection.">
+  <title>Home | Readers&rsquo; Haven Public Library</title>
   <link rel="stylesheet" href="../styles/style.css">
 </head>
-<body>
-  <header>
-    <h1>Readers’ Haven</h1>
-    <nav>
-      <a href="index.html">Home</a>
+<body class="home-body">
+  <header class="home-header">
+    <div class="home-brand">
+      <span class="home-brand-mark" aria-hidden="true">&#128218;</span>
+      <div>
+        <h1>Readers&rsquo; Haven</h1>
+        <p class="home-tagline">Your community library &middot; Est. 1998</p>
+      </div>
+    </div>
+    <nav class="home-nav" aria-label="Main navigation">
+      <a href="index.html" aria-current="page">Home</a>
       <a href="collections.html">Collections</a>
       <a href="membership.html">Membership</a>
       <a href="services.html">Services</a>
@@ -18,13 +25,87 @@
     </nav>
   </header>
 
-  <main>
-    <h2>Welcome to Readers’ Haven</h2>
-    <p>Placeholder: mission, location, opening hours.</p>
+  <main class="home-main">
+    <section class="home-hero" aria-labelledby="home-hero-title">
+      <p class="home-eyebrow">Welcome to Readers&rsquo; Haven</p>
+      <h2 id="home-hero-title">A place where every reader belongs.</h2>
+      <p class="home-hero-text">
+        Borrow a book, discover a new idea, or simply find a quiet corner to
+        read. We are a free public library serving readers of all ages in the
+        heart of the community.
+      </p>
+      <div class="home-hero-actions">
+        <a class="home-button home-button-primary" href="collections.html">Explore the collections</a>
+        <a class="home-button home-button-secondary" href="membership.html">Become a member</a>
+      </div>
+    </section>
+
+    <section class="home-section" aria-labelledby="home-mission-title">
+      <h2 id="home-mission-title">Our mission</h2>
+      <p>
+        Readers&rsquo; Haven exists to make reading, learning and discovery
+        accessible to everyone. We connect people with books, trusted
+        information and free programmes that spark curiosity and bring
+        neighbours together.
+      </p>
+      <ul class="home-mission-list">
+        <li>Offer an inclusive, welcoming space for all ages.</li>
+        <li>Build a collection that reflects our community.</li>
+        <li>Support literacy, learning and digital access.</li>
+      </ul>
+    </section>
+
+    <div class="home-info-grid">
+      <section class="home-card" aria-labelledby="home-location-title">
+        <h2 id="home-location-title">Find us</h2>
+        <p class="home-card-lead">We are right in the town centre, next to the civic square.</p>
+        <address class="home-address">
+          Readers&rsquo; Haven Public Library<br>
+          24 Market Street<br>
+          Riverton, RT1 4AB
+        </address>
+        <p class="home-card-note">Step-free entrance &middot; Bus stops 3 and 7 &middot; Cycle racks available</p>
+      </section>
+
+      <section class="home-card" aria-labelledby="home-hours-title">
+        <h2 id="home-hours-title">Opening hours</h2>
+        <table class="home-hours">
+          <tbody>
+            <tr><th scope="row">Monday &ndash; Thursday</th><td>9:00 &ndash; 19:00</td></tr>
+            <tr><th scope="row">Friday</th><td>9:00 &ndash; 17:00</td></tr>
+            <tr><th scope="row">Saturday</th><td>10:00 &ndash; 16:00</td></tr>
+            <tr><th scope="row">Sunday</th><td>Closed</td></tr>
+          </tbody>
+        </table>
+        <p class="home-card-note">Closed on public holidays. Study room bookings end 30 minutes before closing.</p>
+      </section>
+    </div>
+
+    <section class="home-section home-explore" aria-labelledby="home-explore-title">
+      <h2 id="home-explore-title">Explore the library</h2>
+      <div class="home-link-grid">
+        <a class="home-link-card" href="collections.html">
+          <strong>Collections</strong>
+          <span>Browse fiction, non-fiction and reference materials.</span>
+        </a>
+        <a class="home-link-card" href="membership.html">
+          <strong>Membership</strong>
+          <span>Join for free and take books home with you.</span>
+        </a>
+        <a class="home-link-card" href="services.html">
+          <strong>Services</strong>
+          <span>Discover events, study spaces and digital help.</span>
+        </a>
+        <a class="home-link-card" href="contact.html">
+          <strong>Contact</strong>
+          <span>Ask a question or plan your next visit.</span>
+        </a>
+      </div>
+    </section>
   </main>
 
-  <footer>
-    <p>&copy; 2026 Readers’ Haven Public Library</p>
+  <footer class="home-footer">
+    <p>&copy; 2026 Readers&rsquo; Haven Public Library &middot; 24 Market Street, Riverton</p>
   </footer>
 </body>
 </html>
