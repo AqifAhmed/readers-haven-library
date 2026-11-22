@@ -1,5 +1,3 @@
-# syntax=docker/dockerfile:1
-
 # ---- Build stage: compile the static site with Node 22 ----
 # Use the pinned Node 22 Alpine base image for the builder (never :latest).
 FROM node:22-alpine AS builder
