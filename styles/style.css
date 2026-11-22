@@ -553,3 +553,48 @@ nav a {
   }
 }
 
+
+/* ===== Membership page ===== */
+.membership-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.25rem;
+  margin-top: 1.5rem;
+}
+
+.membership-card {
+  border: 1px solid #d0d7de;
+  border-radius: 8px;
+  padding: 1.25rem;
+  background-color: #ffffff;
+}
+
+.membership-card h3 {
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+}
+
+.membership-fee {
+  font-size: 1.2rem;
+  font-weight: 700;
+  margin-bottom: 0.75rem;
+}
+
+.membership-card ul {
+  padding-left: 1.2rem;
+  margin: 0;
+}
+
+.membership-card li {
+  margin-bottom: 0.5rem;
+}
+
+@media (max-width: 600px) {
+  .membership-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .membership-card {
+    padding: 1rem;
+  }
+}
